@@ -1,6 +1,6 @@
 # JS Full Stack Applications - Advanced FiveM Server Management System
 
-A comprehensive, feature-rich web application for managing FiveM roleplay server applications, support tickets, user management, and administrative operations. Built with Next.js 15, TypeScript, and Discord OAuth integration.
+A comprehensive, feature-rich web application for managing FiveM roleplay server applications, support tickets, user management, and administrative operations. Built with Next.js 15, TypeScript, and Discord OAuth integration with the help of AI.
 
 ## 🌟 Overview
 
