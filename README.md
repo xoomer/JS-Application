@@ -167,6 +167,7 @@ Create a `.env.local` file in the root directory with the following variables:
 
 ```env
 # NextAuth Configuration
+# NextAuth Configuration
 NEXTAUTH_URL=http://localhost:3000
 NEXTAUTH_SECRET=your-secret-key-here
 
@@ -177,23 +178,16 @@ DISCORD_CLIENT_SECRET=your-discord-client-secret
 # Discord Bot
 DISCORD_BOT_TOKEN=your-bot-token
 DISCORD_GUILD_ID=your-server-id
-
+DISCORD_NOTIFICATION_CHANNEL_ID = your-notification-channel-id
+DISCORD_PAYMENT_WEBHOOK_URL=your_webhook_url_here  # Optional
 # PayPal (Optional)
-PAYPAL_CLIENT_ID=your-paypal-client-id
-PAYPAL_CLIENT_SECRET=your-paypal-client-secret
-PAYPAL_MODE=sandbox # or live
-
-# Email (Optional)
-EMAIL_ENABLED=false
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=587
-SMTP_USER=your-email@gmail.com
-SMTP_PASSWORD=your-app-password
+NEXT_PUBLIC_PAYPAL_CLIENT_ID=your-paypal-client-id
+PAYPAL_SECRET = your-paypal-secret
 
 # Application Configuration
-NEXT_PUBLIC_SERVER_NAME=Your Server Name
-NEXT_PUBLIC_SERVER_LOGO=/images/logo.png
-NEXT_PUBLIC_DISCORD_INVITE=https://discord.gg/yourserver
+FIVEM_PLAYERS_JSON=your-players-json-url-here
+FIVEM_INFO_JSON=your-info-json-url-here
+CRON_SECRET= your-cron-secret-here
 ```
 
 ### Discord Bot Setup
