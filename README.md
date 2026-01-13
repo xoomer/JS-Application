@@ -124,7 +124,7 @@ JS-Applications is a modern, full-stack management system designed specifically 
 - npm or pnpm
 - Discord Application (for OAuth)
 - Discord Bot (for server integration)
-- PayPal Business Account (optional, for shop)
+- PayPal Business Account (for shop)
 
 ### Setup Steps
 
@@ -180,7 +180,7 @@ DISCORD_BOT_TOKEN=your-bot-token
 DISCORD_GUILD_ID=your-server-id
 DISCORD_NOTIFICATION_CHANNEL_ID = your-notification-channel-id
 DISCORD_PAYMENT_WEBHOOK_URL=your_webhook_url_here  # Optional
-# PayPal (Optional)
+# PayPal
 NEXT_PUBLIC_PAYPAL_CLIENT_ID=your-paypal-client-id
 PAYPAL_SECRET = your-paypal-secret
 
