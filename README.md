@@ -143,7 +143,7 @@ pnpm install
 
 3. **Create environment file**
 ```bash
-cp .env.example .env.local
+cp .env
 ```
 
 4. **Configure environment variables** (see Configuration section below)
@@ -163,7 +163,7 @@ pnpm dev
 
 ### Environment Variables
 
-Create a `.env.local` file in the root directory with the following variables:
+Create a `.env` file in the root directory with the following variables:
 
 ```env
 # NextAuth Configuration
@@ -198,19 +198,19 @@ CRON_SECRET= your-cron-secret-here
    - Presence Intent
    - Message Content Intent
 3. Invite bot to your server with Administrator permissions
-4. Copy bot token to `.env.local`
+4. Copy bot token to `.env`
 
 ### Discord OAuth Setup
 
 1. In Discord Developer Portal, go to OAuth2
 2. Add redirect URL: `http://localhost:3000/api/auth/callback/discord`
-3. Copy Client ID and Secret to `.env.local`
+3. Copy Client ID and Secret to `.env`
 
 ### Role Configuration
 
 1. Go to your Discord server settings
 2. Copy role IDs for Admin, Moderator, and Reviewer roles
-3. Add to `.env.local`
+3. Add to `.env`
 
 ### Application Types
 
@@ -271,7 +271,7 @@ Configure custom application types in `/admin/application-types`:
 
 ### Branding
 - Replace logo in `/public/images/`
-- Update server name in `.env.local`
+- Update server name in `.env`
 - Customize colors in Tailwind config
 
 ### Application Fields
@@ -318,7 +318,7 @@ Data is stored in JSON files in the `/data` directory:
 ## 🐛 Troubleshooting
 
 ### Discord Bot Not Responding
-- Verify bot token in `.env.local`
+- Verify bot token in `.env`
 - Check bot is in your server
 - Ensure required intents are enabled
 - Verify DISCORD_GUILD_ID matches your server
