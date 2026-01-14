@@ -9,9 +9,6 @@ Config.EnableDebug = true -- Enable debug messages
 Config.EnableTokenAuth = true -- Require tokens from website to join
 Config.TokenExpireTime = 300 -- Token expiration time in seconds (5 minutes)
 
--- API Settings (for your JS application)
-Config.APIEndpoint = "http://your-website.com/api/validate-token" -- Your website API endpoint
-Config.APIKey = "YOUR_SECRET_API_KEY" -- Secret key for API authentication
 
 -- Priority Levels (higher number = higher priority)
 Config.Priorities = {
